@@ -148,7 +148,7 @@ df.isnull().sum()
 plt.figure(figsize=(15,5))
 sns.distplot(df['population'])
 ```
-![Alt text](gmbr4.jpeg) <br>
+![Alt text](gmbr4.png) <br>
 
 #### - Modeling Data
 
