@@ -107,7 +107,8 @@ Penjelasan komponen-komponen utama dari kode tersebut adalah sebagai berikut:
 ``` bash
 sns.heatmap(df.isnull(), cmap="viridis")
 
-plt.show()```
+plt.show()
+```
 ![Alt text](gmbr1.png) <br>
 
 #### - Disini kita akan melihat nilai data
