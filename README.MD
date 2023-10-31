@@ -105,8 +105,9 @@ Penjelasan komponen-komponen utama dari kode tersebut adalah sebagai berikut:
 3. `df.isnull()`: Ini adalah ekspresi yang digunakan untuk mengidentifikasi data yang hilang (missing data) dalam DataFrame `df`. Ketika dipanggil pada DataFrame, metode `.isnull()` mengembalikan DataFrame yang memiliki nilai `True` di tempat di mana data hilang, dan `False` di tempat di mana data tersedia.
 
 ``` bash
-sns.heatmap(df.isnull())
-```
+sns.heatmap(df.isnull(), cmap="viridis")
+
+plt.show()```
 ![Alt text](gmbr1.png) <br>
 
 #### - Disini kita akan melihat nilai data
