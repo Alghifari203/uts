@@ -144,6 +144,12 @@ Ini adalah beberapa penjelasan untuk setiap bagian dari kode program tersebut:
 df.isnull().sum()
 ```
 
+``` bash
+plt.figure(figsize=(15,5))
+sns.distplot(df['population'])
+```
+![Alt text](gmbr4.png) <br>
+
 #### - Modeling Data
 
 Kode program di bawah ini terlihat seperti mengambil dua kolom dari suatu DataFrame (df) sebagai input fitur (x) dan satu kolom sebagai target (y):
