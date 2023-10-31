@@ -293,4 +293,4 @@ pickle.dump(lr,open(filename,'wb'))
 
 [Estimation APP](https://97p9xxbyntkp9f9iyfbvmr.streamlit.app/).
 
-![Alt text](gmbr3.png) <br>
+![Alt text](gmbr5.png) <br>
